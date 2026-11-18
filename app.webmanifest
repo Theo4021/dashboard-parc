@@ -1,0 +1,21 @@
+{
+  "name": "Gestion de Parc",
+  "short_name": "Gestion de Parc",
+  "description": "Dashboard de gestion de parc (données sur le dossier partagé).",
+  "lang": "fr",
+  "start_url": "./Dashboard.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#121212",
+  "theme_color": "#db3333",
+  "icons": [
+    { "src": "assets/images/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "assets/images/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" }
+  ],
+  "shortcuts": [
+    { "name": "Nouvelle amende", "url": "./Dashboard.html#/amendes?action=nouveau", "icons": [{ "src": "assets/images/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Nouveau sinistre", "url": "./Dashboard.html#/sinistres?action=nouveau", "icons": [{ "src": "assets/images/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Nouvelle commande carburant", "url": "./Dashboard.html#/carburant?action=nouveau", "icons": [{ "src": "assets/images/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Rapport des heures", "url": "./Dashboard.html#/chauffeurs?action=heures", "icons": [{ "src": "assets/images/icon-192.png", "sizes": "192x192" }] }
+  ]
+}
