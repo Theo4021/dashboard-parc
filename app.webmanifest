@@ -9,13 +9,78 @@
   "background_color": "#121212",
   "theme_color": "#db3333",
   "icons": [
-    { "src": "assets/images/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
-    { "src": "assets/images/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" }
+    {
+      "src": "assets/images/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/images/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
   ],
   "shortcuts": [
-    { "name": "Nouvelle amende", "url": "./Dashboard.html#/amendes?action=nouveau", "icons": [{ "src": "assets/images/icon-192.png", "sizes": "192x192" }] },
-    { "name": "Nouveau sinistre", "url": "./Dashboard.html#/sinistres?action=nouveau", "icons": [{ "src": "assets/images/icon-192.png", "sizes": "192x192" }] },
-    { "name": "Nouvelle commande carburant", "url": "./Dashboard.html#/carburant?action=nouveau", "icons": [{ "src": "assets/images/icon-192.png", "sizes": "192x192" }] },
-    { "name": "Rapport des heures", "url": "./Dashboard.html#/chauffeurs?action=heures", "icons": [{ "src": "assets/images/icon-192.png", "sizes": "192x192" }] }
-  ]
+    {
+      "name": "Nouvelle amende",
+      "url": "./Dashboard.html#/amendes?action=nouveau",
+      "icons": [
+        {
+          "src": "assets/images/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Nouveau sinistre",
+      "url": "./Dashboard.html#/sinistres?action=nouveau",
+      "icons": [
+        {
+          "src": "assets/images/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Nouvelle commande carburant",
+      "url": "./Dashboard.html#/carburant?action=nouveau",
+      "icons": [
+        {
+          "src": "assets/images/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Rapport des heures",
+      "url": "./Dashboard.html#/chauffeurs?action=heures",
+      "icons": [
+        {
+          "src": "assets/images/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ],
+  "file_handlers": [
+    {
+      "action": "./Dashboard.html",
+      "accept": {
+        "application/vnd.ms-excel": [
+          ".xls"
+        ],
+        "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet": [
+          ".xlsx"
+        ]
+      }
+    }
+  ],
+  "launch_handler": {
+    "client_mode": [
+      "focus-existing",
+      "auto"
+    ]
+  }
 }
