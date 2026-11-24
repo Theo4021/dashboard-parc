@@ -1,7 +1,14 @@
 {
- "release": "2026.11.24-v3.83",
- "version": "3.83",
+ "release": "2026.11.24-v3.84",
+ "version": "3.84",
  "notes": [
+  {
+   "version": "3.84",
+   "date": "2026-11-24",
+   "items": [
+    "Remboursement TICPE : les tracteurs sortis du parc depuis sont comptés pour les mois où ils roulaient (reconnus dans le relevé comme tracteurs de la même flotte). Réimportez les relevés déjà importés."
+   ]
+  },
   {
    "version": "3.83",
    "date": "2026-11-24",
