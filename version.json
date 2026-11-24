@@ -1,7 +1,14 @@
 {
- "release": "2026.11.24-v3.85",
- "version": "3.85",
+ "release": "2026.11.24-v3.86",
+ "version": "3.86",
  "notes": [
+  {
+   "version": "3.86",
+   "date": "2026-11-24",
+   "items": [
+    "Remboursement TICPE : le « Gasolie extra » est de nouveau compté avec le « Diesel »."
+   ]
+  },
   {
    "version": "3.85",
    "date": "2026-11-24",
@@ -138,13 +145,6 @@
    "items": [
     "Application installable (icône sur le bureau), pastille d’alertes sur l’icône, raccourcis au clic droit.",
     "Notifications Windows : résumé du jour, nouvelles alertes, export Transics reçu."
-   ]
-  },
-  {
-   "version": "3.66",
-   "date": "2026-11-18",
-   "items": [
-    "Le dashboard est disponible en site web ; les données restent sur le dossier partagé."
    ]
   }
  ]
