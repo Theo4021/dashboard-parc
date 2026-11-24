@@ -1,6 +1,7 @@
 :root {
 --bg: #0b0d10; --panel: #171a1f; --panel2: #1d2127; --panel3: #22272e; --line: #2b3138; --line2: #363d46;
 --text: #f5f7fa; --muted: #9aa3ad; --red: #db3333; --red-dark: #b82525; --redsoft: rgba(219, 51, 51, .14);
+--btn-red: #a63232; --btn-red-line: #b53c3c; --btn-red-hover: #8f2a2a;
 --green: #29b765; --greensoft: rgba(41, 183, 101, .15); --orange: #f39b2f; --orangesoft: rgba(243, 155, 47, .15);
 --blue: #4c8dd6; --graysoft: rgba(154, 163, 173, .14);
 --c-mines: #4c8dd6; --c-tachy: #9b7be0; --c-limiteur: #2bb3a6; --c-confinement: #c9b14a; --c-sanitaire: #d273b4; --shadow: 0 18px 50px rgba(0, 0, 0, .45);
@@ -12,6 +13,7 @@ body.white-mode {
 --text: #1d2127; --muted: #5f6b76; --redsoft: rgba(219, 51, 51, .09); --greensoft: rgba(41, 183, 101, .12); --orangesoft: rgba(243, 155, 47, .16);
 --graysoft: rgba(95, 107, 118, .1); --shadow: 0 18px 50px rgba(20, 25, 30, .18); --side: #ffffff; --side-text: #3b434c; --hover: #f1f2f4;
 --green: #1f9152; --orange: #c46f00;
+--btn-red: #b33a3a; --btn-red-line: #a33333; --btn-red-hover: #9a3030;
 --c-mines: #2f6db3; --c-tachy: #7253c4; --c-limiteur: #138a7f; --c-confinement: #9a8217; --c-sanitaire: #b04a92;
 color-scheme: light;
 }
@@ -126,18 +128,18 @@ body.nav-mini .nav-collapse .ico { transform: rotate(180deg); }
 .banner.warn { background: var(--orangesoft); }
 .banner.info { background: var(--panel3); }
 .banner-actions { display: flex; gap: 8px; }
-.btn { display: inline-flex; align-items: center; justify-content: center; gap: 7px; height: 36px; padding: 0 14px; border-radius: var(--radius); border: 1px solid var(--line2); background: var(--panel3); color: var(--text); font-weight: 400; cursor: pointer; text-decoration: none; white-space: nowrap; }
+.btn { display: inline-flex; align-items: center; justify-content: center; gap: 7px; height: 34px; padding: 0 13px; font-size: 13.5px; transition: background-color .12s, border-color .12s; border-radius: var(--radius); border: 1px solid var(--line2); background: var(--panel3); color: var(--text); font-weight: 400; cursor: pointer; text-decoration: none; white-space: nowrap; }
 .btn:hover { border-color: var(--muted); }
 .btn:disabled { opacity: .45; cursor: not-allowed; }
-.btn.primary { background: var(--red); border-color: var(--red); color: #fff; }
-.btn.primary:hover { background: var(--red-dark); border-color: var(--red-dark); }
-.btn.danger { background: transparent; border-color: var(--red); color: var(--red); }
-.btn.danger:hover { background: var(--red); color: #fff; }
+.btn.primary { background: var(--btn-red); border-color: var(--btn-red-line); color: #fff; }
+.btn.primary:hover { background: var(--btn-red-hover); border-color: var(--btn-red-hover); }
+.btn.danger { background: transparent; border-color: var(--btn-red-line); color: var(--btn-red-line); }
+.btn.danger:hover { background: var(--btn-red); border-color: var(--btn-red); color: #fff; }
 .btn.ghost { background: transparent; }
 .btn.ghost:hover { background: var(--panel3); }
 .btn.danger-text { color: var(--red); border-color: transparent; }
-.btn.small { height: 30px; padding: 0 10px; font-size: 13px; }
-.btn.big { height: 46px; padding: 0 22px; font-size: 15px; }
+.btn.small { height: 28px; padding: 0 10px; font-size: 12.5px; }
+.btn.big { height: 42px; padding: 0 20px; font-size: 14.5px; }
 .icon-btn { display: inline-grid; place-items: center; width: 34px; height: 34px; border-radius: var(--radius); border: 0; background: transparent; color: inherit; cursor: pointer; }
 .icon-btn:hover { background: var(--panel3); }
 .icon-btn.small { width: 28px; height: 28px; }
@@ -263,8 +265,8 @@ pre.identity { white-space: pre-wrap; font: 400 13px/1.5 Inter, "Segoe UI", Aria
 .subtabs { display: inline-flex; gap: 4px; padding: 3px; margin: 0 0 14px; background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius); }
 .subtab { display: inline-flex; align-items: center; gap: 8px; padding: 7px 14px; border-radius: 5px; color: var(--muted); text-decoration: none; }
 .subtab:hover { color: var(--text); background: var(--hover); }
-.subtab.active { background: var(--red); color: #fff; }
-.subtab.active .nav-count { background: #fff; color: var(--red); }
+.subtab.active { background: var(--btn-red); color: #fff; }
+.subtab.active .nav-count { background: #fff; color: var(--btn-red); }
 .reefer-rest { font-variant-numeric: tabular-nums; }
 .reefer-rest.late { color: var(--red); background: var(--redsoft); padding: 1px 6px; border-radius: 4px; }
 .reefer-flag { font-size: 12px; padding: 1px 6px; border-radius: 4px; white-space: nowrap; }

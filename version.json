@@ -1,7 +1,14 @@
 {
- "release": "2026.11.24-v3.81",
- "version": "3.81",
+ "release": "2026.11.24-v3.82",
+ "version": "3.82",
  "notes": [
+  {
+   "version": "3.82",
+   "date": "2026-11-24",
+   "items": [
+    "Boutons plus sobres : rouge moins vif, un peu plus petits (le bandeau rouge ne change pas)."
+   ]
+  },
   {
    "version": "3.81",
    "date": "2026-11-24",
