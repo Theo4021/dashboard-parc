@@ -1,7 +1,14 @@
 {
- "release": "2026.11.24-v3.80",
- "version": "3.80",
+ "release": "2026.11.24-v3.81",
+ "version": "3.81",
  "notes": [
+  {
+   "version": "3.81",
+   "date": "2026-11-24",
+   "items": [
+    "Activité : le bouton « Importer l’export des trajets » est à gauche du choix du mois, juste au-dessus des indicateurs."
+   ]
+  },
   {
    "version": "3.80",
    "date": "2026-11-24",
