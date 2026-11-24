@@ -1,7 +1,15 @@
 {
- "release": "2026.11.24-v3.86",
- "version": "3.86",
+ "release": "2026.11.24-v3.87",
+ "version": "3.87",
  "notes": [
+  {
+   "version": "3.87",
+   "date": "2026-11-24",
+   "items": [
+    "Activité : bouton « Importer le planning » (PDF des plannings d’exploitation, un par exploitant). Le planning devient la référence pour l’exploitant de chaque tracteur ; le Suivi technique ne sert plus qu’en secours.",
+    "Les écarts entre planning et Suivi technique, et les tracteurs absents du planning, sont listés en haut de l’onglet."
+   ]
+  },
   {
    "version": "3.86",
    "date": "2026-11-24",
@@ -137,14 +145,6 @@
    "date": "2026-11-18",
    "items": [
     "Application installée : un export Transics s’ouvre directement par « Ouvrir avec » sur le rapport des heures."
-   ]
-  },
-  {
-   "version": "3.67",
-   "date": "2026-11-18",
-   "items": [
-    "Application installable (icône sur le bureau), pastille d’alertes sur l’icône, raccourcis au clic droit.",
-    "Notifications Windows : résumé du jour, nouvelles alertes, export Transics reçu."
    ]
   }
  ]
