@@ -151,6 +151,7 @@ body.nav-mini .nav-collapse .ico { transform: rotate(180deg); }
 .badge.late { background: var(--redsoft); color: var(--red); }
 .badge.soon { background: var(--orangesoft); color: var(--orange); }
 .badge.ok { background: var(--greensoft); color: var(--green); }
+.badge.off { background: var(--graysoft); color: var(--muted); }
 .plate { font-weight: 400; letter-spacing: .02em; white-space: nowrap; }
 .plate-big { letter-spacing: .02em; font-size: 34px; margin-top: 4px; }
 .clip { display: inline-flex; align-items: center; gap: 2px; margin-left: 8px; color: var(--muted); font-size: 12px; }

@@ -1,7 +1,15 @@
 {
- "release": "2026.11.24-v3.87",
- "version": "3.87",
+ "release": "2026.11.24-v3.88",
+ "version": "3.88",
  "notes": [
+  {
+   "version": "3.88",
+   "date": "2026-11-24",
+   "items": [
+    "Véhicules : statut « Immobilisé » (temporaire) ou « Inactif » (définitif) dans la fiche du véhicule, avec motif, date et note.",
+    "Un véhicule inactif n’a plus d’alertes d’entretien, est masqué de la liste du parc (filtre « Inactifs ») et ne peut plus être affecté ; son historique reste consultable. Bouton « Réactiver » sur sa fiche."
+   ]
+  },
   {
    "version": "3.87",
    "date": "2026-11-24",
@@ -138,13 +146,6 @@
    "date": "2026-11-19",
    "items": [
     "Amendes : lecture automatique des avis de contravention scannés (reçus par mail ou bouton « Lire un scan ») et fiche pré-remplie à vérifier."
-   ]
-  },
-  {
-   "version": "3.68",
-   "date": "2026-11-18",
-   "items": [
-    "Application installée : un export Transics s’ouvre directement par « Ouvrir avec » sur le rapport des heures."
    ]
   }
  ]
