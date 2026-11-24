@@ -1,7 +1,15 @@
 {
- "release": "2026.11.24-v3.82",
- "version": "3.82",
+ "release": "2026.11.24-v3.83",
+ "version": "3.83",
  "notes": [
+  {
+   "version": "3.83",
+   "date": "2026-11-24",
+   "items": [
+    "Carburant : nouvel onglet « Remboursement TICPE ». Import des relevés gazole mensuels, gazole des tracteurs pleins faits en France (pompe du dépôt et cartes), montant par trimestre selon le taux saisi (€/hl).",
+    "Export Excel : tableau croisé tracteurs × mois et tracteurs × site, détail des pleins retenus, pleins exclus et calcul."
+   ]
+  },
   {
    "version": "3.82",
    "date": "2026-11-24",
