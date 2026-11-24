@@ -1,7 +1,14 @@
 {
- "release": "2026.11.24-v3.79",
- "version": "3.79",
+ "release": "2026.11.24-v3.80",
+ "version": "3.80",
  "notes": [
+  {
+   "version": "3.80",
+   "date": "2026-11-24",
+   "items": [
+    "Activité : plus de barre de recherche sur les tableaux « Par exploitant » et « Affrètement et hors-parc » (elle reste sur « Par véhicule »)."
+   ]
+  },
   {
    "version": "3.79",
    "date": "2026-11-24",
