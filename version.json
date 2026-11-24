@@ -1,0 +1,108 @@
+{
+ "release": "2026.11.24-v3.79",
+ "version": "3.79",
+ "notes": [
+  {
+   "version": "3.79",
+   "date": "2026-11-24",
+   "items": [
+    "Bandeau « Nouvelle version disponible » quand une mise à jour est publiée, avec « Voir les nouveautés » et « Recharger ».",
+    "Notes de version consultables à tout moment : cliquer sur le numéro de version en bas du menu."
+   ]
+  },
+  {
+   "version": "3.78",
+   "date": "2026-11-24",
+   "items": [
+    "Activité : « Sans exploitant » s’appelle désormais « Hors-parc »."
+   ]
+  },
+  {
+   "version": "3.77",
+   "date": "2026-11-24",
+   "items": [
+    "Activité : l’affrètement et les tracteurs hors-parc ont leur propre tableau, séparé de celui des exploitants."
+   ]
+  },
+  {
+   "version": "3.76",
+   "date": "2026-11-24",
+   "items": [
+    "Activité : chiffre d’affaires exact au centime près (affichage et export Excel)."
+   ]
+  },
+  {
+   "version": "3.75",
+   "date": "2026-11-23",
+   "items": [
+    "Activité : le tableau « Par exploitant » ne montre que les vrais exploitants."
+   ]
+  },
+  {
+   "version": "3.74",
+   "date": "2026-11-23",
+   "items": [
+    "Nouvel onglet « Activité » : import de l’export des trajets, chiffre d’affaires, kilomètres, € par km et CA par trajet, par exploitant et par tracteur.",
+    "Les kilomètres d’un trajet ne sont comptés qu’une fois, même s’il transporte plusieurs commandes."
+   ]
+  },
+  {
+   "version": "3.73",
+   "date": "2026-11-23",
+   "items": [
+    "Bouton « Nouveau » retiré de la barre du haut : chaque page garde son bouton d’ajout."
+   ]
+  },
+  {
+   "version": "3.72",
+   "date": "2026-11-23",
+   "items": [
+    "Boutons « Copier le lien » et « Envoyer par mail » retirés.",
+    "Le bouton « Enregistrer » des fiches reste visible même dans une fenêtre étroite."
+   ]
+  },
+  {
+   "version": "3.71",
+   "date": "2026-11-20",
+   "items": [
+    "Amendes scannées : le scan est joint dans les pièces jointes de l’amende, plus dans les notes."
+   ]
+  },
+  {
+   "version": "3.70",
+   "date": "2026-11-19",
+   "items": [
+    "Rapport des heures : téléchargement en Excel en plus du PDF (par exploitant, global, tout télécharger)."
+   ]
+  },
+  {
+   "version": "3.69",
+   "date": "2026-11-19",
+   "items": [
+    "Amendes : lecture automatique des avis de contravention scannés (reçus par mail ou bouton « Lire un scan ») et fiche pré-remplie à vérifier."
+   ]
+  },
+  {
+   "version": "3.68",
+   "date": "2026-11-18",
+   "items": [
+    "Application installée : un export Transics s’ouvre directement par « Ouvrir avec » sur le rapport des heures."
+   ]
+  },
+  {
+   "version": "3.67",
+   "date": "2026-11-18",
+   "items": [
+    "Application installable (icône sur le bureau), pastille d’alertes sur l’icône, raccourcis au clic droit.",
+    "Notifications Windows : résumé du jour, nouvelles alertes, export Transics reçu."
+   ]
+  },
+  {
+   "version": "3.66",
+   "date": "2026-11-18",
+   "items": [
+    "Le dashboard est disponible en site web ; les données restent sur le dossier partagé."
+   ]
+  }
+ ]
+}
