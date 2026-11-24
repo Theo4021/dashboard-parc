@@ -1,7 +1,14 @@
 {
- "release": "2026.11.24-v3.84",
- "version": "3.84",
+ "release": "2026.11.24-v3.85",
+ "version": "3.85",
  "notes": [
+  {
+   "version": "3.85",
+   "date": "2026-11-24",
+   "items": [
+    "Remboursement TICPE : seul le gazole « Diesel » est compté ; le « Gasolie extra » (gazole premium en station) est exclu par prudence et affiché dans « Non retenu »."
+   ]
+  },
   {
    "version": "3.84",
    "date": "2026-11-24",
