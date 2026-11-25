@@ -1,7 +1,14 @@
 {
- "release": "2026.11.24-v3.88",
- "version": "3.88",
+ "release": "2026.11.25-v3.89",
+ "version": "3.89",
  "notes": [
+  {
+   "version": "3.89",
+   "date": "2026-11-25",
+   "items": [
+    "Correction : l’import d’un gros relevé gazole (ou d’une grosse activité) n’est plus bloqué par « Impossible de conserver une copie de récupération sur ce poste ». La copie de sécurité des gros fichiers est rangée dans la base du navigateur, beaucoup plus grande."
+   ]
+  },
   {
    "version": "3.88",
    "date": "2026-11-24",
@@ -139,13 +146,6 @@
    "date": "2026-11-19",
    "items": [
     "Rapport des heures : téléchargement en Excel en plus du PDF (par exploitant, global, tout télécharger)."
-   ]
-  },
-  {
-   "version": "3.69",
-   "date": "2026-11-19",
-   "items": [
-    "Amendes : lecture automatique des avis de contravention scannés (reçus par mail ou bouton « Lire un scan ») et fiche pré-remplie à vérifier."
    ]
   }
  ]
