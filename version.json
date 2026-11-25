@@ -1,7 +1,15 @@
 {
- "release": "2026.11.25-v3.89",
- "version": "3.89",
+ "release": "2026.11.25-v3.90",
+ "version": "3.90",
  "notes": [
+  {
+   "version": "3.90",
+   "date": "2026-11-25",
+   "items": [
+    "Chauffeurs : l’exploitant des fiches est comparé au planning importé (Activité) ; les fiches différentes ou vides sont listées, avec « Appliquer » ou « Tout appliquer ».",
+    "Quand l’exploitant d’un chauffeur change, celui des échéances de son tracteur et de sa semi est mis à jour (après confirmation ; un véhicule partagé avec un autre exploitant n’est pas modifié)."
+   ]
+  },
   {
    "version": "3.89",
    "date": "2026-11-25",
@@ -139,13 +147,6 @@
    "date": "2026-11-20",
    "items": [
     "Amendes scannées : le scan est joint dans les pièces jointes de l’amende, plus dans les notes."
-   ]
-  },
-  {
-   "version": "3.70",
-   "date": "2026-11-19",
-   "items": [
-    "Rapport des heures : téléchargement en Excel en plus du PDF (par exploitant, global, tout télécharger)."
    ]
   }
  ]
