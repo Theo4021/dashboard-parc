@@ -1,7 +1,15 @@
 {
- "release": "2026.11.25-v3.90",
- "version": "3.90",
+ "release": "2026.11.26-v3.91",
+ "version": "3.91",
  "notes": [
+  {
+   "version": "3.91",
+   "date": "2026-11-26",
+   "items": [
+    "Amendes scannées : plusieurs scans arrivés en même temps sont proposés un par un, avec le nombre en attente ; un fichier encore en cours de synchronisation OneDrive ne bloque plus les autres.",
+    "Accès au dossier OneDrive perdu (navigateur fermé) : un bandeau « Autoriser » s’affiche au lieu d’un échec silencieux ; l’état des scans est visible sur la page Amendes."
+   ]
+  },
   {
    "version": "3.90",
    "date": "2026-11-25",
@@ -140,13 +148,6 @@
    "items": [
     "Boutons « Copier le lien » et « Envoyer par mail » retirés.",
     "Le bouton « Enregistrer » des fiches reste visible même dans une fenêtre étroite."
-   ]
-  },
-  {
-   "version": "3.71",
-   "date": "2026-11-20",
-   "items": [
-    "Amendes scannées : le scan est joint dans les pièces jointes de l’amende, plus dans les notes."
    ]
   }
  ]
