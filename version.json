@@ -1,7 +1,14 @@
 {
- "release": "2026.11.26-v3.92",
- "version": "3.92",
+ "release": "2026.11.26-v3.93",
+ "version": "3.93",
  "notes": [
+  {
+   "version": "3.93",
+   "date": "2026-11-26",
+   "items": [
+    "Amendes scannées : on choisit directement le dossier « Amendes scannées » (lien sur la page Amendes), sans passer par le dossier du rapport des heures."
+   ]
+  },
   {
    "version": "3.92",
    "date": "2026-11-26",
@@ -140,13 +147,6 @@
    "items": [
     "Nouvel onglet « Activité » : import de l’export des trajets, chiffre d’affaires, kilomètres, € par km et CA par trajet, par exploitant et par tracteur.",
     "Les kilomètres d’un trajet ne sont comptés qu’une fois, même s’il transporte plusieurs commandes."
-   ]
-  },
-  {
-   "version": "3.73",
-   "date": "2026-11-23",
-   "items": [
-    "Bouton « Nouveau » retiré de la barre du haut : chaque page garde son bouton d’ajout."
    ]
   }
  ]
