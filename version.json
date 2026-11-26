@@ -1,7 +1,14 @@
 {
- "release": "2026.11.26-v3.91",
- "version": "3.91",
+ "release": "2026.11.26-v3.92",
+ "version": "3.92",
  "notes": [
+  {
+   "version": "3.92",
+   "date": "2026-11-26",
+   "items": [
+    "Amendes scannées : le dossier OneDrive « Rapports heures » se choisit directement depuis la page Amendes (lien dans la ligne d’état). Le choix fait dans la version X: n’était pas connu du site."
+   ]
+  },
   {
    "version": "3.91",
    "date": "2026-11-26",
@@ -140,14 +147,6 @@
    "date": "2026-11-23",
    "items": [
     "Bouton « Nouveau » retiré de la barre du haut : chaque page garde son bouton d’ajout."
-   ]
-  },
-  {
-   "version": "3.72",
-   "date": "2026-11-23",
-   "items": [
-    "Boutons « Copier le lien » et « Envoyer par mail » retirés.",
-    "Le bouton « Enregistrer » des fiches reste visible même dans une fenêtre étroite."
    ]
   }
  ]
